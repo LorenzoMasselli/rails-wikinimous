@@ -1,0 +1,14 @@
+
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title"><%= @article.title %></h5>
+    <p class="card-text"><%= @article.content %></p>
+    <a href="#" class="card-link"><%= link_to "Edit", edit_article_path %></a>
+    <a href="#" class="card-link"><%= link_to "Delete",article_path(@article), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}
+%></a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <button type="button" class="btn btn-outline-primary"><%= link_to "Return home", articles_path %></button>
+</div>
