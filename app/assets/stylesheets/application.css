@@ -13,3 +13,77 @@
  *= require_tree .
  *= require_self
  */
+
+ .link {
+    text-decoration: none;
+    color: inherit;
+
+ }
+
+ .navbar-wiki {
+    height: 35vh !important;
+    background-image: url("mount.jpg") !important;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+ }
+
+ .nav-wiki {
+    color: white !important;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem !important;
+ }
+
+ .articles {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    color: white !important;
+ }
+
+ .new_article {
+    color: white !important;
+    background-color: black !important;
+    padding: 0.3rem 1rem;
+    position: absolute;
+    right: 1.5%;
+    bottom: 5%;
+    font-size: 1.3rem !important;
+    border-radius: 6px;
+ }
+
+
+ .article {
+    position: relative;
+    height: 5rem !important;
+ }
+
+ .al-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ }
+
+ .al-list p {
+    text-align: left;
+ }
+
+ .article-count {
+    position: absolute;
+    left: 1.6%;
+    bottom: -20%;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+
+ .circle {
+    width: 10px !important;
+    height: 10px !important;
+    background-color: green !important;
+    border-radius: 50% !important;
+ }
